@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "pur your session id here ",
+SESSION_ID: process.env.SESSION_ID || "GOTAR~XMD~ulx01AIY#j0nLZJrJuh15NkRaC2woPCoN-RSswUr78pAejpwUARI ",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
@@ -25,9 +25,9 @@ MENTION_REPLY: process.env.MENTION_REPLY || "false",
 // make true if want auto voice reply if someone menetion you 
 MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/q0t3l2.jpg",
 // add custom menu and mention reply image url
-PREFIX: process.env.PREFIX || ".",
+PREFIX: process.env.PREFIX || "",
 // add your prifix for bot   
-BOT_NAME: process.env.BOT_NAME || "𝐆𝐎𝐓𝐀𝐑 𝐗𝐌𝐃",
+BOT_NAME: process.env.BOT_NAME || "JUST-GOTAR🥷🏾💕",
 // add bot namw here for menu
 STICKER_NAME: process.env.STICKER_NAME || "𝐆𝐎𝐓𝐀𝐑 𝐗𝐌𝐃",
 // type sticker pack name 
@@ -43,7 +43,7 @@ OWNER_NAME: process.env.OWNER_NAME || "𝐆𝐎𝐓𝐀𝐑",
 // add bot owner name
 DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍᴇɢᴀʟᴏᴅᴏɴ ᴍᴅ*",
 // add bot owner name    
-ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/q0t3l2.jpg",
+ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/pv6jkn.jpg",
 // add img for alive msg
 LIVE_MSG: process.env.LIVE_MSG || "> Zinda Hun Yar *𝐆𝐎𝐓𝐀𝐑 𝐗𝐌𝐃*⚡",
 // add alive msg here 
@@ -53,7 +53,7 @@ AUTO_REACT: process.env.AUTO_REACT || "false",
 // make this true or false for auto react on all msgs
 ANTI_BAD: process.env.ANTI_BAD || "false",
 // false or true for anti bad words  
-MODE: process.env.MODE || "public",
+MODE: process.env.MODE || "private",
 // make bot public-private-inbox-group 
 ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "false",
 // make anti link true,false for groups 
